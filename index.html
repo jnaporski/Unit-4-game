@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <title>Krystals Kollector</title>
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">  
+        
+
+
+    </head>
+    <body>
+        <header>
+            <div class="jumbotron">
+                <h1 id="gamename">Krystal Kollector</h1>
+                
+            </div>  
+        </header>
+            <br>
+
+        <div class="content">
+            <section>   
+                <p>Shang Tsung has generated a random number. you must click Krystals to match that number! You win if you match this number when clicking on the Krystals! if you go over you lose! Do not let Tsung win!</p>
+            </section>   
+        </div>
+
+        <br>
+
+        
+        <div class="winslosses">
+            <br>
+            <h3>Wins:</h3>
+                <div id="wins"></div>
+            <br>
+            <h3>Losses:</h3>
+                <div id="losses"></div>
+            <br>    
+        </div>
+
+        <br>
+
+        
+        <div class="chosenNumber">
+            <br>
+            <h3>Your random number is:</h3>
+                <div id="randomNumber"></div>
+        </div>
+
+        <br>
+
+        
+        <div class="crystalOptions">
+                <h3>Choose a Krystal MORTAL...</h3>
+                <br>
+                
+                    <input id="button-ruby" class="crystals" type="image" src="assets/images/red.jpg" value="red">
+                    <input id="button-sapphire" class="crystals" type="image" src="assets/images/blue.jpg" value="blue">
+                    <input id="button-goldenOnyx" class="crystals" type="image" src="assets/images/yellow.jpg" value="yellow">
+                    <input id="button-emerald" class="crystals" type="image" src="assets/images/green.jpg" value="green">
+
+        </div>
+
+        <br>
+
+        
+        <div class="totalscore">
+            <h3>Your total score is:</h3>
+                <div id="scoreFinal"></div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+        
+            <div>
+                    <footer class="backfooter"></footer>
+                    <footer class="footer">
+                        <div class="footercontainer">
+                            <p>&#169; Jay Naporski</p>
+                        </div>
+                    </footer>    
+            </div> 
+        
+        <script src="assets/java/game.js"></script>            
+    </body>
+</html>
